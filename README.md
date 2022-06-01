@@ -3,7 +3,7 @@
 A Mobius remote reporter for the [Nexus](https://github.com/mobius-home/nexus)
 server
 
-This requires your project to use `:mobius` version `0.5.0` or greater.
+This requires your project to use `:mobius` version `0.5.1` or greater.
 
 ## Install
 

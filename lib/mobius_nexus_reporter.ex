@@ -37,9 +37,14 @@ defmodule MobiusNexusReporter do
       |> :erlang.binary_to_list()
 
     Req.post!(url, Jason.encode!(%{metrics: bin_list}),
-      headers: [{"Content-type", "application/json"}, {"Authorization", "Bearer #{state.token}"}]
+      headers: [
+        {"Content-type", "application/json"},
+        {"Authorization", "Bearer #{state.token}"}
+      ]
     )
 
     {:noreply, state}
+  rescue
+    error -> {:error, error, state}
   end
 end

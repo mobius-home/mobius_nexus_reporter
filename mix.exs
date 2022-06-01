@@ -28,7 +28,7 @@ defmodule MobiusNexusReporter.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:mobius, "~> 0.5.0"},
+      {:mobius, "~> 0.5.1"},
       {:req, "~> 0.2.2"},
       {:ex_doc, "~> 0.27", only: :docs, runtime: false},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
