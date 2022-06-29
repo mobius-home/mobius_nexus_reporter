@@ -4,6 +4,16 @@
 
 This project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.2.0] - 2022-06-29
+
+### Added
+
+- `:device_serial` argument to this reporter
+
+### Fixed
+
+- Hardcoded device serial in endpoint URL
+
 ## [v1.0.1] - 2022-06-01
 
 ### Fixed

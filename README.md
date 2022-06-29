@@ -10,7 +10,7 @@ This requires your project to use `:mobius` version `0.5.1` or greater.
 ```elixir
 def deps() do
   [
-    {:mobius_nexus_reporter, "~> 1.0"}
+    {:mobius_nexus_reporter, "~> 1.2"}
   ]
 end
 ```

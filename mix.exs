@@ -1,7 +1,7 @@
 defmodule MobiusNexusReporter.MixProject do
   use Mix.Project
 
-  @version "1.0.1"
+  @version "1.2.0"
 
   def project do
     [
